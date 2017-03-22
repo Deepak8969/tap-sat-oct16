@@ -36,7 +36,7 @@ public class TestLevel1_SnapDeal_Selenium_Imported_From_IDE_Broken_Needs_To_Be_F
 
   @Test
   public void testECommerceSite() throws Exception {
-    driver.get(baseUrl + "/");
+    driver.get(baseUrl + "/");//test
     driver.findElement(By.id("inputValEnter")).click();
     driver.findElement(By.id("inputValEnter")).clear();
     driver.findElement(By.id("inputValEnter")).sendKeys("mobile");
